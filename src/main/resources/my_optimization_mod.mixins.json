@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.example.myoptimizationmod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "SodiumSettingsMixin",
+    "ChunkLoadingMixin",
+    "ChunkRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
