@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "sodium_oxide",
+  "version": "1.0.0",
+  "name": "Sodium Oxide",
+  "description": "Optimization for Minecraft chunks using Sodium.",
+  "authors": ["Cmlwsif"],
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": "https://github.com/YourRepo"
+  },
+  "license": "MIT",
+  "icon": "assets/icon/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.myoptimizationmod.MyOptimizationModClient"]
+  },
+  "mixins": ["my_optimization_mod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.16.5",
+    "sodium": ">=0.2.0+build.4"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
